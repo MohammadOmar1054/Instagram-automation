@@ -39,7 +39,7 @@ async def send_instagram_message(username, password, recipient, message):
             await browser.close()
 
 async def main():
-    await send_instagram_message('lunaticallyyyy', 'omar12345', '_.3rzxii', 'Hello, this is a test message!')
+    await send_instagram_message('Yourusername', 'Yourpassword', 'recepient', 'Hello, this is a test message!')
 
 if __name__ == "__main__":
     import asyncio
