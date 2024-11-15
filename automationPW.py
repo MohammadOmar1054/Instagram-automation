@@ -79,9 +79,9 @@ async def send_instagram_message(username, password, recipients, message):
         await browser.close()
 
 # Replace with your Instagram credentials and the recipients
-username = 'lunaticallyyyy'
-password = 'omar12345'
-recipients = ['_.3rzxii']
+username = 'your_usernme'
+password = 'your_pw'
+recipients = ['receipient']
 message = 'Hello! This is a test message.'
 
 # Run the function
