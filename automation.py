@@ -12,11 +12,11 @@ def send_message_to_accounts(accounts, message):
     time.sleep(3)
 
     # Log in to Instagram
-    username_input = driver.find_element(By.NAME, "lunaticallyyyy")
-    password_input = driver.find_element(By.NAME, "omar12345")
+    username_input = driver.find_element(By.NAME, "your_usernme")
+    password_input = driver.find_element(By.NAME, "your_pw")
 
-    username_input.send_keys('lunaticallyyyy')  # Replace with your username
-    password_input.send_keys('omar12345')    # Replace with your password
+    username_input.send_keys('your_usernme')  # Replace with your username
+    password_input.send_keys('your_pw')    # Replace with your password
 
     time.sleep(5)  # Wait for the login process to complete
 
@@ -64,7 +64,7 @@ def main():
     message = f"I am busy for {x} minutes, call me after {x} minutes."
     
     # List of accounts to send the message to
-    accounts = ['_.3rzxii', 'saimairfan748']  # Replace with actual usernames
+    accounts = ['receipient']  # Replace with actual usernames
     
     send_message_to_accounts(accounts, message)
 
